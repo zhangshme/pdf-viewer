@@ -1,0 +1,30 @@
+{
+  "name": "pdf-viewer",
+  "version": "1.0.0",
+  "description": "a simple pdf viewer",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^1.7.337"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adolt/pdf-viewer.git"
+  },
+  "keywords": [
+    "pdf",
+    "electron"
+  ],
+  "author": "adolt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adolt/pdf-viewer/issues"
+  },
+  "homepage": "https://github.com/adolt/pdf-viewer#readme"
+}
